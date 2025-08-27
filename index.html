@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Outcomes Analysis: BS in Data Science Program</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Dark Gray */
+            color: #E5E7EB; /* Light Gray */
+        }
+        .card {
+            background-color: #1F2937; /* Lighter Dark Gray */
+            border: 1px solid #374151; /* Gray border */
+        }
+        .table-header {
+            background-color: #374151;
+            color: #F9FAFB;
+        }
+        .accent-color {
+            color: #38BDF8; /* Sky Blue */
+        }
+        .section-title {
+            border-bottom: 2px solid #38BDF8;
+            padding-bottom: 0.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Ensures borders are clean */
+        }
+        /* Added styles for clear borders */
+        th, td {
+            border: 1px solid #4B5563; /* Medium gray border for all cells */
+            padding: 0.75rem;
+            text-align: left; /* Default text alignment */
+        }
+        thead th {
+            text-align: center; /* Center align header text */
+        }
+        .stat-card {
+            background-color: #374151;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        .stat-label {
+            font-size: 0.875rem;
+            color: #9CA3AF;
+        }
+        .table-container {
+            overflow-x: auto; /* Enable horizontal scroll on small screens */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Main Container -->
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">Career Outcomes Analysis</h1>
+            <p class="text-xl sm:text-2xl mt-2 accent-color">BS in Data Science and Applications Program</p>
+            <p class="text-sm mt-4 text-gray-400">An independent report based on data published in April 2025.</p>
+        </header>
+
+        <!-- Introduction -->
+        <section class="mb-12 max-w-4xl mx-auto text-center">
+            <p class="text-lg text-gray-300">
+                An analysis of career trajectories for students in the BS in Data Science and Applications program reveals two primary paths: pursuit of higher education (Masters/PhD) or entry into the corporate sector. Opportunities are secured both independently and via the institution's placement cell (IIC).
+            </p>
+        </section>
+
+        <!-- Self-Secured Opportunities Section -->
+        <section id="self-secured" class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 section-title text-white">1. Self-Secured Internships & Jobs</h2>
+            <p class="mb-8 text-gray-400 max-w-4xl">The following data is based on student-reported surveys where the BS program was cited as a key factor in securing the opportunity. This indicates a strong capability among students to leverage their skills independently.</p>
+            
+            <div class="card rounded-lg p-4 md:p-6 mb-8">
+                <h3 class="text-xl font-semibold mb-4 text-white">Opportunities Secured by Program Level</h3>
+                <div class="table-container">
+                    <table class="w-full text-center">
+                        <thead class="table-header">
+                            <tr>
+                                <th rowspan="2">Level</th>
+                                <th colspan="2">May 2024</th>
+                                <th colspan="2">Sep 2024</th>
+                                <th colspan="2">Jan 2025</th>
+                            </tr>
+                            <tr>
+                                <th class="font-semibold bg-gray-600">Jobs</th><th class="font-semibold bg-gray-700">Internships</th>
+                                <th class="font-semibold bg-gray-600">Jobs</th><th class="font-semibold bg-gray-700">Internships</th>
+                                <th class="font-semibold bg-gray-600">Jobs</th><th class="font-semibold bg-gray-700">Internships</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-left">Foundation</td>
+                                <td>299</td><td>105</td>
+                                <td>134</td><td>380</td>
+                                <td>108</td><td>313</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-left">Diploma</td>
+                                <td>653</td><td>205</td>
+                                <td>353</td><td>701</td>
+                                <td>303</td><td>462</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-left">Degree</td>
+                                <td>182</td><td>48</td>
+                                <td>80</td><td>156</td>
+                                <td>60</td><td>87</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Salary and Stipend Breakdown -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+                <div class="card rounded-lg p-4 md:p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Internship Stipend (Per Month)</h3>
+                    <table class="w-full text-center">
+                        <thead class="table-header"><tr><th>Range</th><th>May 2024</th><th>Sep 2024</th><th>Jan 2025</th></tr></thead>
+                        <tbody>
+                            <tr><td class="font-medium text-left">&lt; ₹10,000</td><td>0</td><td>0</td><td>0</td></tr>
+                            <tr><td class="font-medium text-left">₹10,001 - ₹30,000</td><td>390</td><td>373</td><td>187</td></tr>
+                            <tr><td class="font-medium text-left">₹30,001 - ₹50,000</td><td>78</td><td>102</td><td>50</td></tr>
+                            <tr><td class="font-medium text-left">₹50,001 - ₹1,00,000+</td><td>33</td><td>35</td><td>19</td></tr>
+                            <tr class="table-header font-bold"><td class="text-left">Total</td><td>501</td><td>510</td><td>256</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card rounded-lg p-4 md:p-6">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Job Salary (Per Annum)</h3>
+                    <table class="w-full text-center">
+                        <thead class="table-header"><tr><th>Range</th><th>May 2024</th><th>Sep 2024</th><th>Jan 2025</th></tr></thead>
+                        <tbody>
+                            <tr><td class="font-medium text-left">&lt; 5 LPA</td><td>210</td><td>349</td><td>225</td></tr>
+                            <tr><td class="font-medium text-left">5-10 LPA</td><td>90</td><td>166</td><td>144</td></tr>
+                            <tr><td class="font-medium text-left">10-20 LPA</td><td>68</td><td>105</td><td>60</td></tr>
+                            <tr><td class="font-medium text-left">&gt; 20 LPA</td><td>29</td><td>38</td><td>26</td></tr>
+                            <tr class="table-header font-bold"><td class="text-left">Total</td><td>397</td><td>658</td><td>455</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placement Cell (IIC) Section -->
+        <section id="iic-placements" class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 section-title text-white">2. Opportunities via Placement Cell (IIC)</h2>
+            <div class="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+                <div class="card rounded-lg p-4 md:p-6"><h3 class="text-xl font-semibold mb-4 text-white">IIC Registrations</h3><table class="w-full text-center">
+                    <thead class="table-header"><tr><th>Term</th><th>Internship Eligible</th><th>Placement Eligible</th></tr></thead>
+                    <tbody><tr><td class="font-medium text-left">May 2024</td><td>97 / 182</td><td>56 / 102</td></tr><tr><td class="font-medium text-left">Sep 2024</td><td>86 / 203</td><td>66 / 21</td></tr><tr><td class="font-medium text-left">Jan 2025</td><td>80 / Ongoing</td><td>44 / Ongoing</td></tr></tbody></table></div>
+                <div class="card rounded-lg p-4 md:p-6"><h3 class="text-xl font-semibold mb-4 text-white">Internships via IIC</h3><table class="w-full text-center">
+                    <thead class="table-header"><tr><th>Term</th><th>Companies</th><th>Applied</th><th>Secured</th></tr></thead>
+                    <tbody><tr><td class="font-medium text-left">May 2024</td><td>48/66</td><td>85</td><td>40</td></tr></tbody></table><div class="mt-4 stat-card"><div class="stat-value">₹60,000/-</div><div class="stat-label">Highest Stipend</div></div></div>
+                <div class="card rounded-lg p-4 md:p-6"><h3 class="text-xl font-semibold mb-4 text-white">Jobs via IIC</h3><table class="w-full text-center">
+                    <thead class="table-header"><tr><th>Term</th><th>Companies</th><th>Applied</th><th>Secured</th></tr></thead>
+                    <tbody><tr><td class="font-medium text-left">May 2024</td><td>12/29</td><td>16</td><td>5</td></tr><tr><td class="font-medium text-left">Sep 2024</td><td>14/44</td><td>12</td><td>3</td></tr><tr><td class="font-medium text-left">Jan 2025</td><td>15/47</td><td>11</td><td>8</td></tr></tbody></table><div class="mt-4 grid grid-cols-3 gap-2"><div class="stat-card"><div class="stat-value">₹3.6L</div><div class="stat-label">Min Salary</div></div><div class="stat-card"><div class="stat-value">₹8.1L</div><div class="stat-label">Median Salary</div></div><div class="stat-card"><div class="stat-value">₹15L</div><div class="stat-label">Max Salary</div></div></div></div>
+            </div>
+        </section>
+
+        <!-- Higher Education Section -->
+        <section id="higher-education" class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 section-title text-white">3. Higher Education Admissions</h2>
+            <p class="mb-8 text-gray-400 max-w-4xl">Many students also proceed to higher education. The data below shows admission counts based on the location of the university.</p>
+            <div class="card rounded-lg p-4 md:p-6">
+                <h3 class="text-xl font-semibold mb-4 text-white">Admissions by University Location & Program Level</h3>
+                <div class="table-container">
+                    <table class="w-full text-center">
+                        <thead class="table-header">
+                            <tr>
+                                <th rowspan="2">Level</th>
+                                <th colspan="3">International Universities</th>
+                                <th colspan="3">IITs/IISERs/IIMs</th>
+                                <th colspan="3">Other Indian Universities</th>
+                            </tr>
+                            <tr>
+                                <th>May '24</th><th>Sep '24</th><th>Jan '25</th>
+                                <th>May '24</th><th>Sep '24</th><th>Jan '25</th>
+                                <th>May '24</th><th>Sep '24</th><th>Jan '25</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium text-left">Foundation</td>
+                                <td>16</td><td>14</td><td>108</td>
+                                <td>27</td><td>47</td><td>36</td>
+                                <td>113</td><td>173</td><td>139</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-left">Diploma</td>
+                                <td>83</td><td>67</td><td>303</td>
+                                <td>86</td><td>122</td><td>84</td>
+                                <td>225</td><td>281</td><td>212</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium text-left">Degree</td>
+                                <td>18</td><td>15</td><td>60</td>
+                                <td>8</td><td>17</td><td>15</td>
+                                <td>15</td><td>21</td><td>8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- GATE Performance Section -->
+        <section id="gate-performance" class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 section-title text-white">4. GATE Exam Performance</h2>
+            <p class="mb-8 text-gray-400 max-w-4xl">Students from the program consistently achieve top ranks in the GATE - Data Science and AI paper, a competitive exam for Masters' admissions into premier Indian institutes.</p>
+            <div class="card rounded-lg p-4 md:p-6">
+                <h3 class="text-xl font-semibold mb-4 text-white">Top GATE Ranks Achieved</h3>
+                <table class="w-full">
+                    <thead class="table-header"><tr><th class="text-center">Rank (2024)</th><th class="text-left">Student (2024)</th><th class="text-center">Rank (2025)</th><th class="text-left">Student (2025)</th></tr></thead>
+                    <tbody>
+                        <tr><td class="text-center font-medium">8</td><td class="text-left">Deeksha Chutani</td><td class="text-center font-medium">1</td><td class="text-left">Sadineni Nikhil Choudary</td></tr>
+                        <tr><td class="text-center font-medium">11</td><td class="text-left">Hareshanmuhan V</td><td class="text-center font-medium">7</td><td class="text-left">Vivek Sivaramakrishnan</td></tr>
+                        <tr><td class="text-center font-medium">15</td><td class="text-left">Rishabh Indoria</td><td class="text-center font-medium">10</td><td class="text-left">Rohit Singh</td></tr>
+                        <tr><td class="text-center font-medium">94</td><td class="text-left">Anant Gupta</td><td class="text-center font-medium">76</td><td class="text-left">Raghav Kapil</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Degree Acceptance Section -->
+        <section id="degree-acceptance" class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 section-title text-white">5. Degree Acceptance Analysis</h2>
+            <p class="mb-8 text-gray-400 max-w-4xl">This analysis covers the acceptance of the BS in Data Science & Applications degree across various academic and professional sectors.</p>
+            <div class="card rounded-lg p-4 md:p-6">
+                <h3 class="text-xl font-semibold mb-4 text-white">Acceptance of BS Degree in Various Sectors</h3>
+                <div class="table-container">
+                    <table class="w-full">
+                        <thead class="table-header">
+                            <tr>
+                                <th>Sector / Opportunity</th>
+                                <th>Acceptance Status & Remarks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium">Foreign Universities (M.S./Ph.D.)</td>
+                                <td><span class="font-bold text-green-400">High Acceptance.</span> International universities often value specialized, modern curricula. A strong portfolio of data science projects is a significant advantage.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Private Sector (Corporate Jobs)</td>
+                                <td><span class="font-bold text-green-400">Excellent Acceptance.</span> The degree is directly aligned with high-demand roles like Data Scientist, ML Engineer, and Data Analyst. Skills are immediately applicable.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Govt. Research & Tech (ISRO, DRDO)</td>
+                                <td><span class="font-bold text-yellow-400">Conditional Acceptance.</span> Eligibility often requires specific B.E./B.Tech disciplines. BS graduates may qualify for data-centric roles but should verify specific job requirements.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Public Sector Undertakings (PSUs)</td>
+                                <td><span class="font-bold text-yellow-400">Varies.</span> Acceptance depends on the PSU and whether their recruitment rules (often based on GATE scores in traditional papers) accommodate a BS degree. This is evolving.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Civil Services (UPSC)</td>
+                                <td><span class="font-bold text-green-400">Fully Eligible.</span> A graduate degree from a recognized university is the only requirement. The analytical skills from the BS program can be an asset for the examination.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- BS vs BTech Comparison -->
+        <section id="degree-comparison" class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 section-title text-white">6. BS vs. B.Tech: A Comparative Overview</h2>
+            <p class="mb-8 text-gray-400 max-w-4xl">A comparison to highlight the distinct focus and career paths associated with the BS in Data Science versus a traditional B.Tech degree.</p>
+            <div class="card rounded-lg p-4 md:p-6">
+                <h3 class="text-xl font-semibold mb-4 text-white">Qualitative Degree Comparison</h3>
+                <div class="table-container">
+                    <table class="w-full">
+                        <thead class="table-header">
+                            <tr>
+                                <th>Comparison Point</th>
+                                <th>BS in Data Science & Applications</th>
+                                <th>Traditional B.Tech (e.g., CompSci)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium">Curriculum Focus</td>
+                                <td>Specialized and application-oriented. Focuses on statistics, machine learning, data analysis, and business applications from day one.</td>
+                                <td>Broad and foundational. Covers core engineering principles, computer architecture, algorithms, and systems before specialization.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Core Skillset</td>
+                                <td>Statistical modeling, predictive analytics, data visualization, machine learning algorithms, programming with Python/R.</td>
+                                <td>Software development, algorithm design, data structures, operating systems, database management, computer networks.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Ideal Career Paths</td>
+                                <td>Data-centric roles: Data Scientist, ML Engineer, AI Specialist, Quantitative Analyst, Business Intelligence Developer.</td>
+                                <td>Engineering-centric roles: Software Engineer, DevOps Engineer, Systems Analyst, Full-Stack Developer, Network Engineer.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">Flexibility</td>
+                                <td>Highly flexible for roles within the data ecosystem. Can be combined with any other primary degree.</td>
+                                <td>Provides a broad engineering foundation, allowing for pivots into various tech domains, including data science with further specialization.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center p-6 mt-12 border-t border-gray-700">
+        <p class="text-gray-500">&copy; 2025 Data Insights Group. Analysis based on the April 2025 report from the IITM BS Program.</p>
+    </footer>
+
+</body>
+</html>
